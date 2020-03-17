@@ -1,0 +1,7 @@
+<h3>Some Questions</h3>
+{{questions}}
+<div *ngFor="let qs of questions | keyvalue">
+  <aside>{{qs.key}}:{{q.value}}</aside>
+  <aside>{{questions.key}}:{{q.value}}</aside>
+  <!-- <app-question></app-question> -->
+</div>
